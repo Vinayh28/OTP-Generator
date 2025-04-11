@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTP Generator</title>
+  <link rel="stylesheet" href="Styles.css">
+  <script src="Scripts.js"></script>
+</head>
+
+<body>
+  <h2>OTP Generator</h2>
+  <div class="container">
+    <input type="text" class="otp-input" maxlength="4" pattern="\d*" />
+
+    <div class="otp-area">
+    </div>
+    <p class="countDown"></p>
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <button class="generateOTP">Generate OTP</button>
+    <button class="submitButton">Submit</button>
+  </div>
+</body>
+
+</html>
